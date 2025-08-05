@@ -6,9 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = Views.ListaProduto();
+            MainPage = new NavigationPage(new Views.ListaProduto());
         }
-
-
-    }
+     }
 }
